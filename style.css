@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: crimson;
+}
+.card {
+  width: 700px;
+  background: #ccc;
+  padding: 20px;
+  margin: 20px;
+  font-family: sans-serif;
+  line-height: 20px;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 18px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(50, 151, 90, 0.7) 27%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(161, 210, 108, 1) 66%,
+    rgba(202, 216, 95, 1) 88%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
